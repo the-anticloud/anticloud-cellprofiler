@@ -1,0 +1,432 @@
+{
+ "bomFormat": "CycloneDX",
+ "specVersion": "1.5",
+ "serialNumber": "urn:uuid:346af7c4-75d0-5354-9dc7-859028b074e7",
+ "version": 1,
+ "metadata": {
+  "timestamp": "2026-10-06T07:13:08Z",
+  "component": {
+   "type": "application",
+   "name": "CELLPROFILER",
+   "version": "83b357604d34",
+   "bom-ref": "pkg:generic/anticloud/CELLPROFILER@83b357604d34",
+   "purl": "pkg:generic/anticloud/CELLPROFILER@83b357604d34",
+   "licenses": [
+    {
+     "license": {
+      "id": "BSD-3-Clause"
+     }
+    }
+   ]
+  },
+  "properties": [
+   {
+    "name": "anticloud:source-commit",
+    "value": "REMOVED_CONTAMINATED_SHA_PENDING_API_RESOLVE"
+   },
+   {
+    "name": "anticloud:source-url",
+    "value": "https://github.com/the-anticloud/OPENMRS_CORE.git"
+   },
+   {
+    "name": "anticloud:tier",
+    "value": "tier-agent"
+   }
+  ]
+ },
+ "components": [
+  {
+   "type": "library",
+   "name": "dev",
+   "version": "unspecified",
+   "purl": "pkg:generic/dev",
+   "bom-ref": "conda/dev@unspecified"
+  },
+  {
+   "type": "library",
+   "name": "conda-forge",
+   "version": "unspecified",
+   "purl": "pkg:generic/conda-forge",
+   "bom-ref": "conda/conda-forge@unspecified"
+  },
+  {
+   "type": "library",
+   "name": "numpy",
+   "version": "unspecified",
+   "purl": "pkg:generic/numpy",
+   "bom-ref": "conda/numpy@unspecified"
+  },
+  {
+   "type": "library",
+   "name": "scikit-image",
+   "version": "unspecified",
+   "purl": "pkg:generic/scikit-image",
+   "bom-ref": "conda/scikit-image@unspecified"
+  },
+  {
+   "type": "library",
+   "name": "scipy",
+   "version": "unspecified",
+   "purl": "pkg:generic/scipy",
+   "bom-ref": "conda/scipy@unspecified"
+  },
+  {
+   "type": "library",
+   "name": "matplotlib",
+   "version": "unspecified",
+   "purl": "pkg:generic/matplotlib",
+   "bom-ref": "conda/matplotlib@unspecified"
+  },
+  {
+   "type": "library",
+   "name": "mahotas",
+   "version": "unspecified",
+   "purl": "pkg:generic/mahotas",
+   "bom-ref": "conda/mahotas@unspecified"
+  },
+  {
+   "type": "library",
+   "name": "pip",
+   "version": "unspecified",
+   "purl": "pkg:generic/pip",
+   "bom-ref": "conda/pip@unspecified"
+  },
+  {
+   "type": "library",
+   "name": "centrosome",
+   "version": "unspecified",
+   "purl": "pkg:generic/centrosome",
+   "bom-ref": "conda/centrosome@unspecified"
+  },
+  {
+   "type": "library",
+   "name": "numpy",
+   "version": ">=1.26.4",
+   "purl": "pkg:pypi/numpy@1.26.4",
+   "bom-ref": "pypi/numpy@>=1.26.4"
+  },
+  {
+   "type": "library",
+   "name": "scikit-image",
+   "version": ">=0.20.0",
+   "purl": "pkg:pypi/scikit-image@0.20.0",
+   "bom-ref": "pypi/scikit-image@>=0.20.0"
+  },
+  {
+   "type": "library",
+   "name": "scikit-learn",
+   "version": ">=1.3.0",
+   "purl": "pkg:pypi/scikit-learn@1.3.0",
+   "bom-ref": "pypi/scikit-learn@>=1.3.0"
+  },
+  {
+   "type": "library",
+   "name": "scipy",
+   "version": ">=1.9.1",
+   "purl": "pkg:pypi/scipy@1.9.1",
+   "bom-ref": "pypi/scipy@>=1.9.1"
+  },
+  {
+   "type": "library",
+   "name": "mahotas",
+   "version": ">=1.4.13",
+   "purl": "pkg:pypi/mahotas@1.4.13",
+   "bom-ref": "pypi/mahotas@>=1.4.13"
+  },
+  {
+   "type": "library",
+   "name": "centrosome",
+   "version": ">=1.3.0",
+   "purl": "pkg:pypi/centrosome@1.3.0",
+   "bom-ref": "pypi/centrosome@>=1.3.0"
+  },
+  {
+   "type": "library",
+   "name": "matplotlib",
+   "version": ">=3.1.3",
+   "purl": "pkg:pypi/matplotlib@3.1.3",
+   "bom-ref": "pypi/matplotlib@>=3.1.3"
+  },
+  {
+   "type": "library",
+   "name": "packaging",
+   "version": ">=20.0",
+   "purl": "pkg:pypi/packaging@20.0",
+   "bom-ref": "pypi/packaging@>=20.0"
+  },
+  {
+   "type": "library",
+   "name": "pydantic",
+   "version": ">=2.11.4",
+   "purl": "pkg:pypi/pydantic@2.11.4",
+   "bom-ref": "pypi/pydantic@>=2.11.4"
+  },
+  {
+   "type": "library",
+   "name": "boto3",
+   "version": "unspecified",
+   "purl": "pkg:generic/boto3",
+   "bom-ref": "conda/boto3@unspecified"
+  },
+  {
+   "type": "library",
+   "name": "docutils",
+   "version": "unspecified",
+   "purl": "pkg:generic/docutils",
+   "bom-ref": "conda/docutils@unspecified"
+  },
+  {
+   "type": "library",
+   "name": "future",
+   "version": "unspecified",
+   "purl": "pkg:generic/future",
+   "bom-ref": "conda/future@unspecified"
+  },
+  {
+   "type": "library",
+   "name": "h5py",
+   "version": "unspecified",
+   "purl": "pkg:generic/h5py",
+   "bom-ref": "conda/h5py@unspecified"
+  },
+  {
+   "type": "library",
+   "name": "psutil",
+   "version": "unspecified",
+   "purl": "pkg:generic/psutil",
+   "bom-ref": "conda/psutil@unspecified"
+  },
+  {
+   "type": "library",
+   "name": "pyzmq",
+   "version": "unspecified",
+   "purl": "pkg:generic/pyzmq",
+   "bom-ref": "conda/pyzmq@unspecified"
+  },
+  {
+   "type": "library",
+   "name": "scyjava",
+   "version": "unspecified",
+   "purl": "pkg:generic/scyjava",
+   "bom-ref": "conda/scyjava@unspecified"
+  },
+  {
+   "type": "library",
+   "name": "cellprofiler-library",
+   "version": ">=5.dev",
+   "purl": "pkg:pypi/cellprofiler-library@5.dev",
+   "bom-ref": "pypi/cellprofiler-library@>=5.dev"
+  },
+  {
+   "type": "library",
+   "name": "boto3",
+   "version": ">=1.12.28",
+   "purl": "pkg:pypi/boto3@1.12.28",
+   "bom-ref": "pypi/boto3@>=1.12.28"
+  },
+  {
+   "type": "library",
+   "name": "docutils",
+   "version": ">=0.15.2",
+   "purl": "pkg:pypi/docutils@0.15.2",
+   "bom-ref": "pypi/docutils@>=0.15.2"
+  },
+  {
+   "type": "library",
+   "name": "future",
+   "version": ">=0.18.2",
+   "purl": "pkg:pypi/future@0.18.2",
+   "bom-ref": "pypi/future@>=0.18.2"
+  },
+  {
+   "type": "library",
+   "name": "fsspec",
+   "version": ">=2021.11.0",
+   "purl": "pkg:pypi/fsspec@2021.11.0",
+   "bom-ref": "pypi/fsspec@>=2021.11.0"
+  },
+  {
+   "type": "library",
+   "name": "h5py",
+   "version": ">=3.7.0",
+   "purl": "pkg:pypi/h5py@3.7.0",
+   "bom-ref": "pypi/h5py@>=3.7.0"
+  },
+  {
+   "type": "library",
+   "name": "lxml",
+   "version": ">=4.6.4",
+   "purl": "pkg:pypi/lxml@4.6.4",
+   "bom-ref": "pypi/lxml@>=4.6.4"
+  },
+  {
+   "type": "library",
+   "name": "psutil",
+   "version": ">=5.9.5",
+   "purl": "pkg:pypi/psutil@5.9.5",
+   "bom-ref": "pypi/psutil@>=5.9.5"
+  },
+  {
+   "type": "library",
+   "name": "pyzmq",
+   "version": ">=22.3.0",
+   "purl": "pkg:pypi/pyzmq@22.3.0",
+   "bom-ref": "pypi/pyzmq@>=22.3.0"
+  },
+  {
+   "type": "library",
+   "name": "scyjava",
+   "version": ">=1.9.1",
+   "purl": "pkg:pypi/scyjava@1.9.1",
+   "bom-ref": "pypi/scyjava@>=1.9.1"
+  },
+  {
+   "type": "library",
+   "name": "zarr",
+   "version": ">=2.16.1",
+   "purl": "pkg:pypi/zarr@2.16.1",
+   "bom-ref": "pypi/zarr@>=2.16.1"
+  },
+  {
+   "type": "library",
+   "name": "google-cloud-storage",
+   "version": "~=2.10.0",
+   "purl": "pkg:pypi/google-cloud-storage@2.10.0",
+   "bom-ref": "pypi/google-cloud-storage@~=2.10.0"
+  },
+  {
+   "type": "library",
+   "name": "importlib_metadata",
+   "version": "unspecified",
+   "purl": "pkg:pypi/importlib_metadata",
+   "bom-ref": "pypi/importlib_metadata@unspecified"
+  },
+  {
+   "type": "library",
+   "name": "core",
+   "version": "unspecified",
+   "purl": "pkg:generic/core",
+   "bom-ref": "conda/core@unspecified"
+  },
+  {
+   "type": "library",
+   "name": "imageio",
+   "version": "unspecified",
+   "purl": "pkg:generic/imageio",
+   "bom-ref": "conda/imageio@unspecified"
+  },
+  {
+   "type": "library",
+   "name": "joblib",
+   "version": "unspecified",
+   "purl": "pkg:generic/joblib",
+   "bom-ref": "conda/joblib@unspecified"
+  },
+  {
+   "type": "library",
+   "name": "mysqlclient",
+   "version": "unspecified",
+   "purl": "pkg:generic/mysqlclient",
+   "bom-ref": "conda/mysqlclient@unspecified"
+  },
+  {
+   "type": "library",
+   "name": "--no-deps",
+   "version": "unspecified",
+   "purl": "pkg:generic/--no-deps",
+   "bom-ref": "conda/--no-deps@unspecified"
+  },
+  {
+   "type": "library",
+   "name": "cellprofiler-core",
+   "version": ">=5.dev",
+   "purl": "pkg:pypi/cellprofiler-core@5.dev",
+   "bom-ref": "pypi/cellprofiler-core@>=5.dev"
+  },
+  {
+   "type": "library",
+   "name": "imageio",
+   "version": ">=2.31.3",
+   "purl": "pkg:pypi/imageio@2.31.3",
+   "bom-ref": "pypi/imageio@>=2.31.3"
+  },
+  {
+   "type": "library",
+   "name": "Jinja2",
+   "version": ">=3.1.2",
+   "purl": "pkg:pypi/jinja2@3.1.2",
+   "bom-ref": "pypi/Jinja2@>=3.1.2"
+  },
+  {
+   "type": "library",
+   "name": "joblib",
+   "version": ">=1.3.2",
+   "purl": "pkg:pypi/joblib@1.3.2",
+   "bom-ref": "pypi/joblib@>=1.3.2"
+  },
+  {
+   "type": "library",
+   "name": "mysqlclient",
+   "version": ">=2.2.3",
+   "purl": "pkg:pypi/mysqlclient@2.2.3",
+   "bom-ref": "pypi/mysqlclient@>=2.2.3"
+  },
+  {
+   "type": "library",
+   "name": "Pillow",
+   "version": ">=10.0.0",
+   "purl": "pkg:pypi/pillow@10.0.0",
+   "bom-ref": "pypi/Pillow@>=10.0.0"
+  },
+  {
+   "type": "library",
+   "name": "sentry-sdk",
+   "version": "~=2.8.0",
+   "purl": "pkg:pypi/sentry-sdk@2.8.0",
+   "bom-ref": "pypi/sentry-sdk@~=2.8.0"
+  },
+  {
+   "type": "library",
+   "name": "requests",
+   "version": ">=2.31.0",
+   "purl": "pkg:pypi/requests@2.31.0",
+   "bom-ref": "pypi/requests@>=2.31.0"
+  },
+  {
+   "type": "library",
+   "name": "six",
+   "version": ">=1.16.0",
+   "purl": "pkg:pypi/six@1.16.0",
+   "bom-ref": "pypi/six@>=1.16.0"
+  },
+  {
+   "type": "library",
+   "name": "tifffile",
+   "version": ">=2022.4.8",
+   "purl": "pkg:pypi/tifffile@2022.4.8",
+   "bom-ref": "pypi/tifffile@>=2022.4.8"
+  },
+  {
+   "type": "library",
+   "name": "wxPython",
+   "version": ">=4.2.0",
+   "purl": "pkg:pypi/wxpython@4.2.0",
+   "bom-ref": "pypi/wxPython@>=4.2.0"
+  },
+  {
+   "type": "library",
+   "name": "rapidfuzz",
+   "version": ">=3.0.0",
+   "purl": "pkg:pypi/rapidfuzz@3.0.0",
+   "bom-ref": "pypi/rapidfuzz@>=3.0.0"
+  }
+ ],
+ "source": {
+  "git": {
+   "head": null,
+   "url": null,
+   "sha_unverified": true,
+   "note": "contamination removed; resolve via GitHub API before quoting"
+  }
+ }
+}
